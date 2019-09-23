@@ -11,5 +11,5 @@ usage: gather-artifacts [-hvV] [ -i <input-directory> ] [ -o <output-directory> 
     -v --verbose   Verbose.
     -V --version   Show version.
 
-Gathers Xcode test artifacts and create junit and coverage files.\n
+Gathers Xcode test artifacts and create junit and coverage files.
 ```
