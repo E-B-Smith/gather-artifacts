@@ -12,6 +12,7 @@
 #import <sysexits.h>
 #import "GAOptions.h"
 #import "GAJUnit.h"
+#import "GACoverage.h"
 #import "BNCLog.h"
 
 static BNCLogLevel global_logLevel = BNCLogLevelWarning;
@@ -66,6 +67,7 @@ int main(int argc, char*const argv[]) {
 
         NSLog(@"%@", [[NSFileManager defaultManager] currentDirectoryPath]);
         GAJUnitWithInput(options.inputDirectory, @"");
+        GACoverageWithInput(options.inputDirectory, @"");
     }
 exit:
     return returnCode;
