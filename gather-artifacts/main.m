@@ -10,7 +10,8 @@
 
 #import <Foundation/Foundation.h>
 #import <sysexits.h>
-#import "GACommandOptions.h"
+#import "GAOptions.h"
+#import "GAJUnit.h"
 #import "BNCLog.h"
 
 static BNCLogLevel global_logLevel = BNCLogLevelWarning;
@@ -38,13 +39,13 @@ int main(int argc, char*const argv[]) {
         BNCLogSetOutputFunction(LogOutputFunction);
         BNCLogSetDisplayLevel(BNCLogLevelWarning);
 
-        __auto_type options = [GACommandOptions commandLineOptionsWithArgc:argc argv:argv];
+        __auto_type options = [GAOptions optionsWithArgc:argc argv:argv];
         if (options.badOptionsError) {
             returnCode = EX_USAGE;
             goto exit;
         }
         if (options.showHelp) {
-            NSData *data = [[GACommandOptions helpString] dataUsingEncoding:NSUTF8StringEncoding];
+            NSData *data = [[GAOptions helpString] dataUsingEncoding:NSUTF8StringEncoding];
             write(STDOUT_FILENO, data.bytes, data.length);
             returnCode = EXIT_SUCCESS;
             goto exit;
@@ -62,7 +63,9 @@ int main(int argc, char*const argv[]) {
         global_logLevel =
             MIN(MAX(BNCLogLevelWarning - options.verbosity, BNCLogLevelAll), BNCLogLevelNone);
         BNCLogSetDisplayLevel(global_logLevel);
-        
+
+        NSLog(@"%@", [[NSFileManager defaultManager] currentDirectoryPath]);
+        GAJUnitWithInput(options.inputDirectory, @"");
     }
 exit:
     return returnCode;

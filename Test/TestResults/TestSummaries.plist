@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>FormatVersion</key>
+	<string>1.1</string>
+	<key>TestableSummaries</key>
+	<array>
+		<dict>
+			<key>DiagnosticsDirectory</key>
+			<string>Affirm Sandbox Integration Tests-85D958C6-BECB-44BD-A407-B6DFE78907A2</string>
+			<key>ProjectPath</key>
+			<string>Affirm.xcodeproj</string>
+			<key>TargetName</key>
+			<string>Affirm Sandbox Integration Tests</string>
+			<key>TestKind</key>
+			<string>app hosted</string>
+			<key>TestName</key>
+			<string>Affirm Sandbox Integration Tests</string>
+			<key>TestObjectClass</key>
+			<string>IDESchemeActionTestableSummary</string>
+			<key>Tests</key>
+			<array>
+				<dict>
+					<key>Duration</key>
+					<real>379.34379208087921</real>
+					<key>Subtests</key>
+					<array>
+						<dict>
+							<key>Duration</key>
+							<real>379.3402259349823</real>
+							<key>Subtests</key>
+							<array>
+								<dict>
+									<key>Duration</key>
+									<real>0.0020220279693603516</real>
+									<key>Subtests</key>
+									<array>
+										<dict>
+											<key>Duration</key>
+											<real>0.0013140439987182617</real>
+											<key>TestIdentifier</key>
+											<string>AAAInitializeKIF/testInitializeKIF()</string>
+											<key>TestName</key>
+											<string>testInitializeKIF()</string>
+											<key>TestObjectClass</key>
+											<string>IDESchemeActionTestSummary</string>
+											<key>TestStatus</key>
+											<string>Success</string>
+											<key>TestSummaryGUID</key>
+											<string>B7533472-CCF6-44D2-B55D-C6766DFD9A5C</string>
+										</dict>
+									</array>
+									<key>TestIdentifier</key>
+									<string>AAAInitializeKIF</string>
+									<key>TestName</key>
+									<string>AAAInitializeKIF</string>
+									<key>TestObjectClass</key>
+									<string>IDESchemeActionTestSummaryGroup</string>
+								</dict>
+								<dict>
+									<key>Duration</key>
+									<real>379.33692002296448</real>
+									<key>Subtests</key>
+									<array>
+										<dict>
+											<key>Duration</key>
+											<real>41.057181000709534</real>
+											<key>TestIdentifier</key>
+											<string>SandboxIntegrationTests/Guarantees_Smoke_Test__works_in_the_happy_case()</string>
+											<key>TestName</key>
+											<string>Guarantees_Smoke_Test__works_in_the_happy_case()</string>
+											<key>TestObjectClass</key>
+											<string>IDESchemeActionTestSummary</string>
+											<key>TestStatus</key>
+											<string>Success</string>
+											<key>TestSummaryGUID</key>
+											<string>ACF5F799-D2F0-4873-BC13-9F408890171D</string>
+										</dict>
+										<dict>
+											<key>Duration</key>
+											<real>12.250104904174805</real>
+											<key>TestIdentifier</key>
+											<string>SandboxIntegrationTests/Edit_Email_Address__can_edit_email_address()</string>
+											<key>TestName</key>
+											<string>Edit_Email_Address__can_edit_email_address()</string>
+											<key>TestObjectClass</key>
+											<string>IDESchemeActionTestSummary</string>
+											<key>TestStatus</key>
+											<string>Success</string>
+											<key>TestSummaryGUID</key>
+											<string>0180BDAD-40E4-4CB3-8EE5-5F8C2EF39F4C</string>
+										</dict>
+										<dict>
+											<key>Duration</key>
+											<real>36.509168028831482</real>
+											<key>TestIdentifier</key>
+											<string>SandboxIntegrationTests/Anywhere_Terms_Requires_Down_Payment__supports_this()</string>
+											<key>TestName</key>
+											<string>Anywhere_Terms_Requires_Down_Payment__supports_this()</string>
+											<key>TestObjectClass</key>
+											<string>IDESchemeActionTestSummary</string>
+											<key>TestStatus</key>
+											<string>Success</string>
+											<key>TestSummaryGUID</key>
+											<string>54BCBF89-EC0D-47AC-9DB2-048A327169C5</string>
+										</dict>
+										<dict>
+											<key>Duration</key>
+											<real>15.482115983963013</real>
+											<key>TestIdentifier</key>
+											<string>SandboxIntegrationTests/Loan_Details__displays_refunded_loan_details()</string>
+											<key>TestName</key>
+											<string>Loan_Details__displays_refunded_loan_details()</string>
+											<key>TestObjectClass</key>
+											<string>IDESchemeActionTestSummary</string>
+											<key>TestStatus</key>
+											<string>Success</string>
+											<key>TestSummaryGUID</key>
+											<string>D503B4C8-0D1F-4AF6-A24F-19E4A366507B</string>
+										</dict>
+										<dict>
+											<key>Duration</key>
+											<real>22.48009192943573</real>
+											<key>TestIdentifier</key>
+											<string>SandboxIntegrationTests/SSN___Address_form__supports_this()</string>
+											<key>TestName</key>
+											<string>SSN___Address_form__supports_this()</string>
+											<key>TestObjectClass</key>
+											<string>IDESchemeActionTestSummary</string>
+											<key>TestStatus</key>
+											<string>Success</string>
+											<key>TestSummaryGUID</key>
+											<string>686756C5-3B7A-41A1-A57A-97EA771748BB</string>
+										</dict>
+										<dict>
+											<key>Duration</key>
+											<real>17.561138987541199</real>
+											<key>TestIdentifier</key>
+											<string>SandboxIntegrationTests/confirm_address__works_for_a_single_address_during_onboarding()</string>
+											<key>TestName</key>
+											<string>confirm_address__works_for_a_single_address_during_onboarding()</string>
+											<key>TestObjectClass</key>
+											<string>IDESchemeActionTestSummary</string>
+											<key>TestStatus</key>
+											<string>Success</string>
+											<key>TestSummaryGUID</key>
+											<string>D21FB9F0-94B3-4845-94B3-2A1EB61C1CB1</string>
+										</dict>
+										<dict>
+											<key>Duration</key>
+											<real>19.075770020484924</real>
+											<key>TestIdentifier</key>
+											<string>SandboxIntegrationTests/confirm_address__works_for_entering_an_address_during_onboarding()</string>
+											<key>TestName</key>
+											<string>confirm_address__works_for_entering_an_address_during_onboarding()</string>
+											<key>TestObjectClass</key>
+											<string>IDESchemeActionTestSummary</string>
+											<key>TestStatus</key>
+											<string>Success</string>
+											<key>TestSummaryGUID</key>
+											<string>A30A174C-C037-4DAD-B0C5-080D590E8F63</string>
+										</dict>
+										<dict>
+											<key>Duration</key>
+											<real>36.47304904460907</real>
+											<key>TestIdentifier</key>
+											<string>SandboxIntegrationTests/confirm_address__works_for_a_single_address_during_guarantee_prequal()</string>
+											<key>TestName</key>
+											<string>confirm_address__works_for_a_single_address_during_guarantee_prequal()</string>
+											<key>TestObjectClass</key>
+											<string>IDESchemeActionTestSummary</string>
+											<key>TestStatus</key>
+											<string>Success</string>
+											<key>TestSummaryGUID</key>
+											<string>1F3120DB-386D-453A-9948-21D1758B84BA</string>
+										</dict>
+										<dict>
+											<key>Duration</key>
+											<real>38.85944402217865</real>
+											<key>TestIdentifier</key>
+											<string>SandboxIntegrationTests/confirm_address__works_for_entering_an_address_during_guarantee_prequal()</string>
+											<key>TestName</key>
+											<string>confirm_address__works_for_entering_an_address_during_guarantee_prequal()</string>
+											<key>TestObjectClass</key>
+											<string>IDESchemeActionTestSummary</string>
+											<key>TestStatus</key>
+											<string>Success</string>
+											<key>TestSummaryGUID</key>
+											<string>030E9C3A-5513-4188-9E21-67846A6E3F02</string>
+										</dict>
+										<dict>
+											<key>ActivitySummaries</key>
+											<array>
+												<dict>
+													<key>ActivityType</key>
+													<string>com.apple.dt.xctest.activity-type.testAssertionFailure</string>
+													<key>FinishTimeInterval</key>
+													<real>590921290.64441597</real>
+													<key>StartTimeInterval</key>
+													<real>590921290.64391804</real>
+													<key>Title</key>
+													<string>Assertion Failure: &lt;unknown&gt;:0: failed: caught "KIFFailureException", "The step timed out after 60.00 seconds: No responder for key inputs."
+(
+	0   CoreFoundation                      0x000000010ca0329b __exceptionPreprocess + 331
+	1   libobjc.A.dylib                     0x000000010b57c735 objc_exception_throw + 48
+	2   CoreFoundation                      0x000000010ca02e09 -[NSException raise] + 9
+	3   KIF                                 0x0000000135b6d014 -[XCTestCase(KIFAdditions) failWithException:stopTest:] + 371
+	4   KIF                                 0x0000000135b4fb45 -[KIFTestActor failWithError:stopTest:] + 230
+	5   KIF                                 0x0000000135b4f6b7 -[KIFTestActor runBlock:complete:timeout:] + 116
+	6   KIF                                 0x0000000135b4f717 -[KIFTestActor runBlock:complete:] + 85
+	7   KIF                                 0x0000000135b56094 -[KIFUITestActor enterTextIntoCurrentFirstResponder:] + 49
+	8   Affirm Sandbox Integration Tests    0x0000000135844d15 $sSo9QuickSpecC32Affirm_Sandbox_Integration_TestsE8enterPINyySSF + 229
+	9   Affirm Sandbox Integration Tests    0x0000000135844d7b $sSo9QuickSpecC32Affirm_Sandbox_Integration_TestsE8enterPINyySSFTo + 75
+	10  Affirm Sandbox Integration Tests    0x000000013586c7b6 $s32Affirm_Sandbox_Integration_Tests0bcD0C22pinAndRemoveOnboardingyyF + 118
+	11  Affirm Sandbox Integration Tests    0x000000013586c8b4 $s32Affirm_Sandbox_Integration_Tests0bcD0C22pinAndRemoveOnboardingyyFTo + 36
+	12  Affirm Sandbox Integration Tests    0x00000001358685ba $s32Affirm_Sandbox_Integration_Tests0bcD0C4specyyFyyXEfU9_yycfU0_ + 234
+	13  Affirm Sandbox Integration Tests    0x000000013586ad9d $s32Affirm_Sandbox_Integration_Tests0bcD0C4specyyFyyXEfU9_yycfU0_TA + 13
+	14  Quick                               0x0000000135cfb3de $s5Quick7ExampleC3runyyF + 1054
+	15  Quick                               0x0000000135cfbde7 $s5Quick7ExampleC3runyyFTo + 23
+	16  Quick                               0x0000000135ceac2a __60+[QuickSpec addInstanceMethodForExample:classSelectorNames:]_block_invoke + 107
+	17  CoreFoundation                      0x000000010ca0a11c __invoking___ + 140
+	18  CoreFoundation                      0x000000010ca075b5 -[NSInvocation invoke] + 325
+	19  XCTest                              0x0000000134573b74 __24-[XCTestCase invokeTest]_block_invoke.194 + 78
+	20  XCTest                              0x00000001345cb8a4 -[XCTestCase(Failures) performFailableBlock:testCaseRun:shouldInterruptTest:] + 57
+	21  XCTest                              0x00000001345cb7c2 -[XCTestCase(Failures) _performTurningExceptionsIntoFailuresInterruptAfterHandling:block:] + 96
+	22  XCTest                              0x0000000134573804 __24-[XCTestCase invokeTest]_block_invoke + 848
+	23  XCTest                              0x00000001345d1d01 -[XCUITestContext performInScope:] + 128
+	24  XCTest                              0x00000001345733f1 -[XCTestCase testContextPerformInScope:] + 116
+	25  XCTest                              0x00000001345734a7 -[XCTestCase invokeTest] + 137
+	26  XCTest                              0x0000000134574f73 __26-[XCTestCase performTest:]_block_invoke_2 + 43
+	27  XCTest                              0x00000001345cb8a4 -[XCTestCase(Failures) performFailableBlock:testCaseRun:shouldInterruptTest:] + 57
+	28  XCTest                              0x00000001345cb7c2 -[XCTestCase(Failures) _performTurningExceptionsIntoFailuresInterruptAfterHandling:block:] + 96
+	29  XCTest                              0x0000000134574e8a __26-[XCTestCase performTest:]_block_invoke.316 + 88
+	30  XCTest                              0x00000001345dc3b7 +[XCTContext runInContextForTestCase:block:] + 225
+	31  XCTest                              0x00000001345745f8 -[XCTestCase performTest:] + 676
+	32  XCTest                              0x00000001345b7d6c -[XCTest runTest] + 57
+	33  XCTest                              0x000000013456f0d7 __27-[XCTestSuite performTest:]_block_invoke + 365
+	34  XCTest                              0x000000013456e8b3 -[XCTestSuite _performProtectedSectionForTest:testSection:] + 54
+	35  XCTest                              0x000000013456eb6f -[XCTestSuite performTest:] + 290
+	36  XCTest                              0x00000001345b7d6c -[XCTest runTest] + 57
+	37  XCTest                              0x000000013456f0d7 __27-[XCTestSuite performTest:]_block_invoke + 365
+	38  XCTest                              0x000000013456e8b3 -[XCTestSuite _performProtectedSectionForTest:testSection:] + 54
+	39  XCTest                              0x000000013456eb6f -[XCTestSuite performTest:] + 290
+	40  XCTest                              0x00000001345b7d6c -[XCTest runTest] + 57
+	41  XCTest                              0x000000013456f0d7 __27-[XCTestSuite performTest:]_block_invoke + 365
+	42  XCTest                              0x000000013456e8b3 -[XCTestSuite _performProtectedSectionForTest:testSection:] + 54
+	43  XCTest                              0x000000013456eb6f -[XCTestSuite performTest:] + 290
+	44  XCTest                              0x00000001345b7d6c -[XCTest runTest] + 57
+	45  XCTest                              0x00000001345e6986 __44-[XCTTestRunSession runTestsAndReturnError:]_block_invoke + 171
+	46  XCTest                              0x00000001345e6a57 __44-[XCTTestRunSession runTestsAndReturnError:]_block_invoke.80 + 68
+	47  XCTest                              0x0000000134586474 -[XCTestObservationCenter _observeTestExecutionForBlock:] + 588
+	48  XCTest                              0x00000001345e673d -[XCTTestRunSession runTestsAndReturnError:] + 623
+	49  XCTest                              0x000000013455341c -[XCTestDriver runTestsAndReturnError:] + 446
+	50  XCTest                              0x00000001345d856f _XCTestMain + 2333
+	51  libXCTestBundleInject.dylib         0x000000010a178bf1 __copy_helper_block_e8_32s + 0
+	52  CoreFoundation                      0x000000010c966a3c __CFRUNLOOP_IS_CALLING_OUT_TO_A_BLOCK__ + 12
+	53  CoreFoundation                      0x000000010c9661f0 __CFRunLoopDoBlocks + 336
+	54  CoreFoundation                      0x000000010c960a64 __CFRunLoopRun + 1284
+	55  CoreFoundation                      0x000000010c960221 CFRunLoopRunSpecific + 625
+	56  GraphicsServices                    0x0000000114c961dd GSEventRunModal + 62
+	57  UIKitCore                           0x000000011c3ac115 UIApplicationMain + 140
+	58  Affirm                              0x00000001077d525b main + 75
+	59  libdyld.dylib                       0x0000000111cdb551 start + 1
+	60  ???                                 0x0000000000000005 0x0 + 5
+)</string>
+													<key>UUID</key>
+													<string>549954FB-A5C7-4FD2-AA20-68029F670236</string>
+												</dict>
+											</array>
+											<key>Duration</key>
+											<real>67.065381050109863</real>
+											<key>FailureSummaries</key>
+											<array>
+												<dict>
+													<key>FileName</key>
+													<string>/Users/edwardsmith/Development/ios/affirm/OfflineFunctionalTests/AffirmKIFHelpers.swift</string>
+													<key>LineNumber</key>
+													<integer>104</integer>
+													<key>Message</key>
+													<string>The step timed out after 60.00 seconds: No responder for key inputs.</string>
+													<key>PerformanceFailure</key>
+													<false/>
+												</dict>
+												<dict>
+													<key>FileName</key>
+													<string>&lt;unknown&gt;</string>
+													<key>LineNumber</key>
+													<integer>0</integer>
+													<key>Message</key>
+													<string>failed: caught "KIFFailureException", "The step timed out after 60.00 seconds: No responder for key inputs."
+(
+	0   CoreFoundation                      0x000000010ca0329b __exceptionPreprocess + 331
+	1   libobjc.A.dylib                     0x000000010b57c735 objc_exception_throw + 48
+	2   CoreFoundation                      0x000000010ca02e09 -[NSException raise] + 9
+	3   KIF                                 0x0000000135b6d014 -[XCTestCase(KIFAdditions) failWithException:stopTest:] + 371
+	4   KIF                                 0x0000000135b4fb45 -[KIFTestActor failWithError:stopTest:] + 230
+	5   KIF                                 0x0000000135b4f6b7 -[KIFTestActor runBlock:complete:timeout:] + 116
+	6   KIF                                 0x0000000135b4f717 -[KIFTestActor runBlock:complete:] + 85
+	7   KIF                                 0x0000000135b56094 -[KIFUITestActor enterTextIntoCurrentFirstResponder:] + 49
+	8   Affirm Sandbox Integration Tests    0x0000000135844d15 $sSo9QuickSpecC32Affirm_Sandbox_Integration_TestsE8enterPINyySSF + 229
+	9   Affirm Sandbox Integration Tests    0x0000000135844d7b $sSo9QuickSpecC32Affirm_Sandbox_Integration_TestsE8enterPINyySSFTo + 75
+	10  Affirm Sandbox Integration Tests    0x000000013586c7b6 $s32Affirm_Sandbox_Integration_Tests0bcD0C22pinAndRemoveOnboardingyyF + 118
+	11  Affirm Sandbox Integration Tests    0x000000013586c8b4 $s32Affirm_Sandbox_Integration_Tests0bcD0C22pinAndRemoveOnboardingyyFTo + 36
+	12  Affirm Sandbox Integration Tests    0x00000001358685ba $s32Affirm_Sandbox_Integration_Tests0bcD0C4specyyFyyXEfU9_yycfU0_ + 234
+	13  Affirm Sandbox Integration Tests    0x000000013586ad9d $s32Affirm_Sandbox_Integration_Tests0bcD0C4specyyFyyXEfU9_yycfU0_TA + 13
+	14  Quick                               0x0000000135cfb3de $s5Quick7ExampleC3runyyF + 1054
+	15  Quick                               0x0000000135cfbde7 $s5Quick7ExampleC3runyyFTo + 23
+	16  Quick                               0x0000000135ceac2a __60+[QuickSpec addInstanceMethodForExample:classSelectorNames:]_block_invoke + 107
+	17  CoreFoundation                      0x000000010ca0a11c __invoking___ + 140
+	18  CoreFoundation                      0x000000010ca075b5 -[NSInvocation invoke] + 325
+	19  XCTest                              0x0000000134573b74 __24-[XCTestCase invokeTest]_block_invoke.194 + 78
+	20  XCTest                              0x00000001345cb8a4 -[XCTestCase(Failures) performFailableBlock:testCaseRun:shouldInterruptTest:] + 57
+	21  XCTest                              0x00000001345cb7c2 -[XCTestCase(Failures) _performTurningExceptionsIntoFailuresInterruptAfterHandling:block:] + 96
+	22  XCTest                              0x0000000134573804 __24-[XCTestCase invokeTest]_block_invoke + 848
+	23  XCTest                              0x00000001345d1d01 -[XCUITestContext performInScope:] + 128
+	24  XCTest                              0x00000001345733f1 -[XCTestCase testContextPerformInScope:] + 116
+	25  XCTest                              0x00000001345734a7 -[XCTestCase invokeTest] + 137
+	26  XCTest                              0x0000000134574f73 __26-[XCTestCase performTest:]_block_invoke_2 + 43
+	27  XCTest                              0x00000001345cb8a4 -[XCTestCase(Failures) performFailableBlock:testCaseRun:shouldInterruptTest:] + 57
+	28  XCTest                              0x00000001345cb7c2 -[XCTestCase(Failures) _performTurningExceptionsIntoFailuresInterruptAfterHandling:block:] + 96
+	29  XCTest                              0x0000000134574e8a __26-[XCTestCase performTest:]_block_invoke.316 + 88
+	30  XCTest                              0x00000001345dc3b7 +[XCTContext runInContextForTestCase:block:] + 225
+	31  XCTest                              0x00000001345745f8 -[XCTestCase performTest:] + 676
+	32  XCTest                              0x00000001345b7d6c -[XCTest runTest] + 57
+	33  XCTest                              0x000000013456f0d7 __27-[XCTestSuite performTest:]_block_invoke + 365
+	34  XCTest                              0x000000013456e8b3 -[XCTestSuite _performProtectedSectionForTest:testSection:] + 54
+	35  XCTest                              0x000000013456eb6f -[XCTestSuite performTest:] + 290
+	36  XCTest                              0x00000001345b7d6c -[XCTest runTest] + 57
+	37  XCTest                              0x000000013456f0d7 __27-[XCTestSuite performTest:]_block_invoke + 365
+	38  XCTest                              0x000000013456e8b3 -[XCTestSuite _performProtectedSectionForTest:testSection:] + 54
+	39  XCTest                              0x000000013456eb6f -[XCTestSuite performTest:] + 290
+	40  XCTest                              0x00000001345b7d6c -[XCTest runTest] + 57
+	41  XCTest                              0x000000013456f0d7 __27-[XCTestSuite performTest:]_block_invoke + 365
+	42  XCTest                              0x000000013456e8b3 -[XCTestSuite _performProtectedSectionForTest:testSection:] + 54
+	43  XCTest                              0x000000013456eb6f -[XCTestSuite performTest:] + 290
+	44  XCTest                              0x00000001345b7d6c -[XCTest runTest] + 57
+	45  XCTest                              0x00000001345e6986 __44-[XCTTestRunSession runTestsAndReturnError:]_block_invoke + 171
+	46  XCTest                              0x00000001345e6a57 __44-[XCTTestRunSession runTestsAndReturnError:]_block_invoke.80 + 68
+	47  XCTest                              0x0000000134586474 -[XCTestObservationCenter _observeTestExecutionForBlock:] + 588
+	48  XCTest                              0x00000001345e673d -[XCTTestRunSession runTestsAndReturnError:] + 623
+	49  XCTest                              0x000000013455341c -[XCTestDriver runTestsAndReturnError:] + 446
+	50  XCTest                              0x00000001345d856f _XCTestMain + 2333
+	51  libXCTestBundleInject.dylib         0x000000010a178bf1 __copy_helper_block_e8_32s + 0
+	52  CoreFoundation                      0x000000010c966a3c __CFRUNLOOP_IS_CALLING_OUT_TO_A_BLOCK__ + 12
+	53  CoreFoundation                      0x000000010c9661f0 __CFRunLoopDoBlocks + 336
+	54  CoreFoundation                      0x000000010c960a64 __CFRunLoopRun + 1284
+	55  CoreFoundation                      0x000000010c960221 CFRunLoopRunSpecific + 625
+	56  GraphicsServices                    0x0000000114c961dd GSEventRunModal + 62
+	57  UIKitCore                           0x000000011c3ac115 UIApplicationMain + 140
+	58  Affirm                              0x00000001077d525b main + 75
+	59  libdyld.dylib                       0x0000000111cdb551 start + 1
+	60  ???                                 0x0000000000000005 0x0 + 5
+)</string>
+													<key>PerformanceFailure</key>
+													<false/>
+												</dict>
+											</array>
+											<key>TestIdentifier</key>
+											<string>SandboxIntegrationTests/KBA_Questions__works_during_guarantee_prequal()</string>
+											<key>TestName</key>
+											<string>KBA_Questions__works_during_guarantee_prequal()</string>
+											<key>TestObjectClass</key>
+											<string>IDESchemeActionTestSummary</string>
+											<key>TestStatus</key>
+											<string>Failure</string>
+											<key>TestSummaryGUID</key>
+											<string>44A32B87-948F-4F01-BA0C-8D24F8B653A8</string>
+										</dict>
+										<dict>
+											<key>Duration</key>
+											<real>43.439639925956726</real>
+											<key>TestIdentifier</key>
+											<string>SandboxIntegrationTests/Anywhere_Terms_Requires_Checking__supports_this()</string>
+											<key>TestName</key>
+											<string>Anywhere_Terms_Requires_Checking__supports_this()</string>
+											<key>TestObjectClass</key>
+											<string>IDESchemeActionTestSummary</string>
+											<key>TestStatus</key>
+											<string>Success</string>
+											<key>TestSummaryGUID</key>
+											<string>4045BBA8-A551-4FA7-ADA5-AF52D2F65362</string>
+										</dict>
+										<dict>
+											<key>Duration</key>
+											<real>14.954729914665222</real>
+											<key>TestIdentifier</key>
+											<string>SandboxIntegrationTests/Auth_scopes__can_reject_your_request_to_upgrade_to_loan_scopes()</string>
+											<key>TestName</key>
+											<string>Auth_scopes__can_reject_your_request_to_upgrade_to_loan_scopes()</string>
+											<key>TestObjectClass</key>
+											<string>IDESchemeActionTestSummary</string>
+											<key>TestStatus</key>
+											<string>Success</string>
+											<key>TestSummaryGUID</key>
+											<string>65A0C072-D9CE-457E-B010-8A6D94FF5E89</string>
+										</dict>
+										<dict>
+											<key>Duration</key>
+											<real>14.097784996032715</real>
+											<key>TestIdentifier</key>
+											<string>SandboxIntegrationTests/NTA__can_see_calculator_as_a_new_to_affirm_user()</string>
+											<key>TestName</key>
+											<string>NTA__can_see_calculator_as_a_new_to_affirm_user()</string>
+											<key>TestObjectClass</key>
+											<string>IDESchemeActionTestSummary</string>
+											<key>TestStatus</key>
+											<string>Success</string>
+											<key>TestSummaryGUID</key>
+											<string>F16969DC-7056-4CE4-A90D-C09BCC4DB8A5</string>
+										</dict>
+									</array>
+									<key>TestIdentifier</key>
+									<string>SandboxIntegrationTests</string>
+									<key>TestName</key>
+									<string>SandboxIntegrationTests</string>
+									<key>TestObjectClass</key>
+									<string>IDESchemeActionTestSummaryGroup</string>
+								</dict>
+							</array>
+							<key>TestIdentifier</key>
+							<string>Affirm Sandbox Integration Tests.xctest</string>
+							<key>TestName</key>
+							<string>Affirm Sandbox Integration Tests.xctest</string>
+							<key>TestObjectClass</key>
+							<string>IDESchemeActionTestSummaryGroup</string>
+						</dict>
+						<dict>
+							<key>Duration</key>
+							<real>0.00022900104522705078</real>
+							<key>Subtests</key>
+							<array/>
+							<key>TestIdentifier</key>
+							<string>FBSnapshotTestCase.framework</string>
+							<key>TestName</key>
+							<string>FBSnapshotTestCase.framework</string>
+							<key>TestObjectClass</key>
+							<string>IDESchemeActionTestSummaryGroup</string>
+						</dict>
+						<dict>
+							<key>Duration</key>
+							<real>0.00017011165618896484</real>
+							<key>Subtests</key>
+							<array/>
+							<key>TestIdentifier</key>
+							<string>Quick.framework</string>
+							<key>TestName</key>
+							<string>Quick.framework</string>
+							<key>TestObjectClass</key>
+							<string>IDESchemeActionTestSummaryGroup</string>
+						</dict>
+						<dict>
+							<key>Duration</key>
+							<real>0.00019896030426025391</real>
+							<key>Subtests</key>
+							<array/>
+							<key>TestIdentifier</key>
+							<string>KIF.framework</string>
+							<key>TestName</key>
+							<string>KIF.framework</string>
+							<key>TestObjectClass</key>
+							<string>IDESchemeActionTestSummaryGroup</string>
+						</dict>
+					</array>
+					<key>TestIdentifier</key>
+					<string>Selected tests</string>
+					<key>TestName</key>
+					<string>Selected tests</string>
+					<key>TestObjectClass</key>
+					<string>IDESchemeActionTestSummaryGroup</string>
+				</dict>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

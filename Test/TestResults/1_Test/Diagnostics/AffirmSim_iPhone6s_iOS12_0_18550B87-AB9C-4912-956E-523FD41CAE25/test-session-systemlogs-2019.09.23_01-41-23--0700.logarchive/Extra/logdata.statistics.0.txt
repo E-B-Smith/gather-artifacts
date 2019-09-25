@@ -1,0 +1,389 @@
+--- !logd statistics record
+type  : File Rotate
+file  : Persist/0000000000000001.tracev3
+time  : 2019-09-19 15:28:17-0700
+total : 55090165
+procs :
+    - [   40508494,  73.5, /Users/edwardsmith/Library/Developer/CoreSimulator/Devices/18550B87-AB9C-4912-956E-523FD41CAE25/data/Containers/Bundle/Application/A61731BD-97D8-49C9-A3B3-28E0BA6ABA69/Affirm.app/Affirm ]
+    - [    8825962,  16.0, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/usr/libexec/mobileassetd ]
+    - [    1587280,   2.9, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/Accessibility.framework/Frameworks/AccessibilityUI.framework/XPCServices/com.apple.accessibility.AccessibilityUIServer.xpc/com.apple.accessibility.AccessibilityUIServer ]
+    - [    1109527,   2.0, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/usr/libexec/nsurlsessiond ]
+    - [     459142,   0.8, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/usr/libexec/assertiond ]
+    - [     387483,   0.7, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/System/Library/CoreServices/SpringBoard.app/SpringBoard ]
+    - [     323376,   0.6, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/usr/libexec/trustd ]
+    - [     231554,   0.4, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/usr/libexec/locationd ]
+    - [     193279,   0.4, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/GeoServices.framework/geod ]
+    - [     124947,   0.2, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/ApplePushService.framework/apsd ]
+    - [     101593,   0.2, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/usr/libexec/installd ]
+    - [      95940,   0.2, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/CoreSuggestions.framework/suggestd ]
+    - [      93208,   0.2, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/usr/libexec/securityd ]
+    - [      92889,   0.2, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/usr/libexec/lsd ]
+    - [      88486,   0.2, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/System/Library/TextInput/kbd ]
+    - [      83864,   0.2, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/System/Library/Frameworks/LocalAuthentication.framework/Support/coreauthd ]
+    - [      63957,   0.1, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/IDS.framework/identityservicesd.app/identityservicesd ]
+    - [      63763,   0.1, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/TelephonyUtilities.framework/callservicesd ]
+    - [      52481,   0.1, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/System/Library/Frameworks/CoreServices.framework/XPCServices/lsdiconservice.xpc/lsdiconservice ]
+    - [      48462,   0.1, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/CalendarDaemon.framework/Support/calaccessd ]
+
+--- !logd statistics record
+type  : File Rotate
+file  : Persist/0000000000000004.tracev3
+time  : 2019-09-19 17:08:54-0700
+total : 52503187
+procs :
+    - [   49661095,  94.6, /Users/edwardsmith/Library/Developer/CoreSimulator/Devices/18550B87-AB9C-4912-956E-523FD41CAE25/data/Containers/Bundle/Application/61E57802-3372-40CC-9E80-61BB9BE59AFD/Affirm.app/Affirm ]
+    - [     516811,   1.0, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/usr/libexec/assertiond ]
+    - [     471552,   0.9, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/usr/libexec/locationd ]
+    - [     267851,   0.5, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/System/Library/CoreServices/SpringBoard.app/SpringBoard ]
+    - [     189576,   0.4, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/usr/libexec/trustd ]
+    - [     153472,   0.3, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/usr/libexec/mobileassetd ]
+    - [     116840,   0.2, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/usr/libexec/securityd ]
+    - [     115124,   0.2, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/CoreSuggestions.framework/suggestd ]
+    - [     105125,   0.2, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/ApplePushService.framework/apsd ]
+    - [     102180,   0.2, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/usr/libexec/nsurlsessiond ]
+    - [      93104,   0.2, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/usr/libexec/lsd ]
+    - [      87704,   0.2, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/System/Library/Frameworks/LocalAuthentication.framework/Support/coreauthd ]
+    - [      61659,   0.1, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/TelephonyUtilities.framework/callservicesd ]
+    - [      56462,   0.1, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/System/Library/Frameworks/CoreServices.framework/XPCServices/lsdiconservice.xpc/lsdiconservice ]
+    - [      43622,   0.1, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/usr/libexec/installd ]
+    - [      43418,   0.1, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/usr/libexec/UserEventAgent ]
+    - [      36215,   0.1, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/System/Library/TextInput/kbd ]
+    - [      31953,   0.1, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/AssistantServices.framework/assistantd ]
+    - [      23884,   0.0, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/PassKitCore.framework/passd ]
+    - [      23850,   0.0, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/CalendarDaemon.framework/Support/calaccessd ]
+
+--- !logd statistics record
+type  : File Rotate
+file  : Persist/0000000000000005.tracev3
+time  : 2019-09-19 21:55:34-0700
+total : 50075360
+procs :
+    - [   28460074,  56.8, /Users/edwardsmith/Library/Developer/CoreSimulator/Devices/18550B87-AB9C-4912-956E-523FD41CAE25/data/Containers/Bundle/Application/F1899D3F-1082-4423-B688-E57DE82EE2EE/Affirm.app/Affirm ]
+    - [   17475377,  34.9, /Users/edwardsmith/Library/Developer/CoreSimulator/Devices/18550B87-AB9C-4912-956E-523FD41CAE25/data/Containers/Bundle/Application/61E57802-3372-40CC-9E80-61BB9BE59AFD/Affirm.app/Affirm ]
+    - [    1453359,   2.9, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/usr/libexec/locationd ]
+    - [    1168764,   2.3, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/usr/libexec/assertiond ]
+    - [     291264,   0.6, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/usr/libexec/securityd ]
+    - [     219240,   0.4, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/usr/libexec/trustd ]
+    - [     191448,   0.4, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/CoreSuggestions.framework/suggestd ]
+    - [     111376,   0.2, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/System/Library/Frameworks/LocalAuthentication.framework/Support/coreauthd ]
+    - [     110044,   0.2, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/usr/libexec/nsurlsessiond ]
+    - [     108116,   0.2, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/ApplePushService.framework/apsd ]
+    - [      76096,   0.2, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/System/Library/CoreServices/SpringBoard.app/SpringBoard ]
+    - [      62631,   0.1, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/UserActivity.framework/Agents/useractivityd ]
+    - [      28392,   0.1, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/usr/libexec/routined ]
+    - [      27834,   0.1, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/AssistantServices.framework/assistantd ]
+    - [      27280,   0.1, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/System/Library/Frameworks/WebKit.framework/XPCServices/com.apple.WebKit.WebContent.xpc/com.apple.WebKit.WebContent ]
+    - [      23838,   0.0, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/usr/libexec/UserEventAgent ]
+    - [      20225,   0.0, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/Search.framework/searchd ]
+    - [      20176,   0.0, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/CalendarDaemon.framework/Support/calaccessd ]
+    - [      20112,   0.0, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/usr/libexec/swcd ]
+    - [      19400,   0.0, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/FamilyCircle.framework/familycircled ]
+
+--- !logd statistics record
+type  : Memory Rollover
+time  : 2019-09-20 10:36:49-0700
+total : 13767995
+procs :
+    - [    4864508,  35.3, /Users/edwardsmith/Library/Developer/CoreSimulator/Devices/18550B87-AB9C-4912-956E-523FD41CAE25/data/Containers/Bundle/Application/F1899D3F-1082-4423-B688-E57DE82EE2EE/Affirm.app/Affirm ]
+    - [    2073442,  15.1, /Users/edwardsmith/Library/Developer/CoreSimulator/Devices/18550B87-AB9C-4912-956E-523FD41CAE25/data/Containers/Bundle/Application/61E57802-3372-40CC-9E80-61BB9BE59AFD/Affirm.app/Affirm ]
+    - [    1271858,   9.2, /Users/edwardsmith/Library/Developer/CoreSimulator/Devices/18550B87-AB9C-4912-956E-523FD41CAE25/data/Containers/Bundle/Application/374930ED-A0EC-4E1E-B3C7-331F0D10946E/Affirm.app/Affirm ]
+    - [     929052,   6.7, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/usr/libexec/locationd ]
+    - [     810541,   5.9, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/System/Library/CoreServices/SpringBoard.app/SpringBoard ]
+    - [     601475,   4.4, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/usr/libexec/nsurlsessiond ]
+    - [     436471,   3.2, /Users/edwardsmith/Library/Developer/CoreSimulator/Devices/18550B87-AB9C-4912-956E-523FD41CAE25/data/Containers/Bundle/Application/0A14D4FC-2E60-4297-95CF-6D4DB8D42721/Affirm.app/Affirm ]
+    - [     319911,   2.3, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/usr/libexec/UserEventAgent ]
+    - [     317258,   2.3, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/CoreSuggestions.framework/suggestd ]
+    - [     238531,   1.7, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/GeoServices.framework/geod ]
+    - [     219912,   1.6, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/usr/libexec/configd_sim ]
+    - [     173480,   1.3, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/System/Library/TextInput/kbd ]
+    - [     159687,   1.2, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/AssistantServices.framework/assistantd ]
+    - [     155984,   1.1, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/FamilyCircle.framework/familycircled ]
+    - [     153586,   1.1, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/usr/libexec/assertiond ]
+    - [     136443,   1.0, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/Search.framework/searchd ]
+    - [     112803,   0.8, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/iTunesStore.framework/Support/itunesstored ]
+    - [     101773,   0.7, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/CloudKitDaemon.framework/Support/cloudd ]
+    - [      90689,   0.7, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/AssistantServices.framework/assistant_service ]
+    - [      75093,   0.5, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/usr/libexec/routined ]
+
+--- !logd statistics record
+type  : File Rotate
+file  : Persist/0000000000000006.tracev3
+time  : 2019-09-20 10:39:00-0700
+total : 49759956
+procs :
+    - [   30199066,  60.7, /Users/edwardsmith/Library/Developer/CoreSimulator/Devices/18550B87-AB9C-4912-956E-523FD41CAE25/data/Containers/Bundle/Application/374930ED-A0EC-4E1E-B3C7-331F0D10946E/Affirm.app/Affirm ]
+    - [   12387374,  24.9, /Users/edwardsmith/Library/Developer/CoreSimulator/Devices/18550B87-AB9C-4912-956E-523FD41CAE25/data/Containers/Bundle/Application/0A14D4FC-2E60-4297-95CF-6D4DB8D42721/Affirm.app/Affirm ]
+    - [    3378152,   6.8, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/usr/libexec/locationd ]
+    - [     657082,   1.3, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/usr/libexec/mobileassetd ]
+    - [     475258,   1.0, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/usr/libexec/assertiond ]
+    - [     345368,   0.7, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/usr/libexec/trustd ]
+    - [     314101,   0.6, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/usr/libexec/nsurlsessiond ]
+    - [     249495,   0.5, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/ApplePushService.framework/apsd ]
+    - [     193968,   0.4, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/AssistantServices.framework/assistant_service ]
+    - [     166976,   0.3, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/VoiceServices.framework/Support/voiced ]
+    - [     159552,   0.3, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/System/Library/Frameworks/LocalAuthentication.framework/Support/coreauthd ]
+    - [     141760,   0.3, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/usr/libexec/securityd ]
+    - [     117680,   0.2, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/CoreSuggestions.framework/suggestd ]
+    - [     111883,   0.2, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/System/Library/CoreServices/SpringBoard.app/SpringBoard ]
+    - [      84848,   0.2, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/usr/libexec/UserEventAgent ]
+    - [      73840,   0.1, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/usr/libexec/securityuploadd ]
+    - [      64696,   0.1, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/usr/libexec/routined ]
+    - [      55543,   0.1, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/AssistantServices.framework/assistantd ]
+    - [      51880,   0.1, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/GeoServices.framework/geod ]
+    - [      48344,   0.1, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/CalendarDaemon.framework/Support/calaccessd ]
+
+--- !logd statistics record
+type  : File Rotate
+file  : Persist/0000000000000007.tracev3
+time  : 2019-09-20 11:04:04-0700
+total : 51681409
+procs :
+    - [   49012418,  94.8, /Users/edwardsmith/Library/Developer/CoreSimulator/Devices/18550B87-AB9C-4912-956E-523FD41CAE25/data/Containers/Bundle/Application/E899CC45-4C5D-4AD3-91BA-99D0BF6360EE/Affirm.app/Affirm ]
+    - [     843992,   1.6, /Users/edwardsmith/Library/Developer/CoreSimulator/Devices/18550B87-AB9C-4912-956E-523FD41CAE25/data/Containers/Bundle/Application/0A14D4FC-2E60-4297-95CF-6D4DB8D42721/Affirm.app/Affirm ]
+    - [     636127,   1.2, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/usr/libexec/locationd ]
+    - [     428671,   0.8, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/usr/libexec/assertiond ]
+    - [     151280,   0.3, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/usr/libexec/trustd ]
+    - [      95968,   0.2, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/usr/libexec/securityd ]
+    - [      95960,   0.2, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/CoreSuggestions.framework/suggestd ]
+    - [      87488,   0.2, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/System/Library/Frameworks/LocalAuthentication.framework/Support/coreauthd ]
+    - [      68093,   0.1, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/usr/libexec/nsurlsessiond ]
+    - [      56272,   0.1, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/System/Library/CoreServices/SpringBoard.app/SpringBoard ]
+    - [      28088,   0.1, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/Search.framework/searchd ]
+    - [      23907,   0.0, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/AssistantServices.framework/assistantd ]
+    - [      19954,   0.0, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/usr/libexec/UserEventAgent ]
+    - [      16251,   0.0, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/usr/libexec/testmanagerd ]
+    - [      12148,   0.0, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/usr/libexec/lsd ]
+    - [      12104,   0.0, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/usr/libexec/swcd ]
+    - [      11836,   0.0, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/UserActivity.framework/Agents/useractivityd ]
+    - [      11650,   0.0, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/usr/libexec/installd ]
+    - [      11520,   0.0, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/usr/libexec/securityuploadd ]
+    - [       8104,   0.0, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/usr/libexec/routined ]
+
+--- !logd statistics record
+type  : File Rotate
+file  : Persist/0000000000000008.tracev3
+time  : 2019-09-20 14:14:51-0700
+total : 49828505
+procs :
+    - [   30373550,  61.0, /Users/edwardsmith/Library/Developer/CoreSimulator/Devices/18550B87-AB9C-4912-956E-523FD41CAE25/data/Containers/Bundle/Application/6E2718B0-0CFE-4FDA-9DDB-C0707C5CDB2F/Affirm.app/Affirm ]
+    - [   13860016,  27.8, /Users/edwardsmith/Library/Developer/CoreSimulator/Devices/18550B87-AB9C-4912-956E-523FD41CAE25/data/Containers/Bundle/Application/E899CC45-4C5D-4AD3-91BA-99D0BF6360EE/Affirm.app/Affirm ]
+    - [    4011268,   8.1, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/usr/libexec/locationd ]
+    - [     400033,   0.8, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/usr/libexec/assertiond ]
+    - [     163504,   0.3, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/usr/libexec/trustd ]
+    - [     113104,   0.2, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/CoreSuggestions.framework/suggestd ]
+    - [      94631,   0.2, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/UserActivity.framework/Agents/useractivityd ]
+    - [      93592,   0.2, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/usr/libexec/securityd ]
+    - [      89040,   0.2, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/usr/libexec/securityuploadd ]
+    - [      87496,   0.2, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/System/Library/Frameworks/LocalAuthentication.framework/Support/coreauthd ]
+    - [      87075,   0.2, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/usr/libexec/nsurlsessiond ]
+    - [      72667,   0.1, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/usr/libexec/UserEventAgent ]
+    - [      68336,   0.1, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/usr/libexec/routined ]
+    - [      64546,   0.1, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/System/Library/CoreServices/SpringBoard.app/SpringBoard ]
+    - [      32433,   0.1, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/ApplePushService.framework/apsd ]
+    - [      24075,   0.0, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/AssistantServices.framework/assistantd ]
+    - [      23647,   0.0, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/Search.framework/searchd ]
+    - [      15633,   0.0, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/usr/libexec/installd ]
+    - [      15608,   0.0, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/usr/libexec/lsd ]
+    - [      12240,   0.0, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/NanoTimeKitCompanion.framework/nanotimekitcompaniond ]
+
+--- !logd statistics record
+type  : File Rotate
+file  : Persist/0000000000000009.tracev3
+time  : 2019-09-20 14:58:35-0700
+total : 51204387
+procs :
+    - [   40658645,  79.4, /Users/edwardsmith/Library/Developer/CoreSimulator/Devices/18550B87-AB9C-4912-956E-523FD41CAE25/data/Containers/Bundle/Application/6E2718B0-0CFE-4FDA-9DDB-C0707C5CDB2F/Affirm.app/Affirm ]
+    - [    7915157,  15.5, /Users/edwardsmith/Library/Developer/CoreSimulator/Devices/18550B87-AB9C-4912-956E-523FD41CAE25/data/Containers/Bundle/Application/3923F1E0-FAC5-4B75-9E2F-D84D0C0A3374/Affirm.app/Affirm ]
+    - [    1040968,   2.0, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/usr/libexec/locationd ]
+    - [     559989,   1.1, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/usr/libexec/assertiond ]
+    - [     170704,   0.3, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/usr/libexec/trustd ]
+    - [     151288,   0.3, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/usr/libexec/securityd ]
+    - [     110944,   0.2, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/CoreSuggestions.framework/suggestd ]
+    - [      91072,   0.2, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/System/Library/Frameworks/LocalAuthentication.framework/Support/coreauthd ]
+    - [      83829,   0.2, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/System/Library/CoreServices/SpringBoard.app/SpringBoard ]
+    - [      66607,   0.1, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/usr/libexec/nsurlsessiond ]
+    - [      56646,   0.1, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/ApplePushService.framework/apsd ]
+    - [      39706,   0.1, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/UserActivity.framework/Agents/useractivityd ]
+    - [      28183,   0.1, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/usr/libexec/UserEventAgent ]
+    - [      27554,   0.1, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/AssistantServices.framework/assistantd ]
+    - [      24190,   0.0, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/Search.framework/searchd ]
+    - [      20320,   0.0, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/usr/libexec/securityuploadd ]
+    - [      16168,   0.0, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/usr/libexec/routined ]
+    - [      15877,   0.0, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/usr/libexec/testmanagerd ]
+    - [      15832,   0.0, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/usr/libexec/lsd ]
+    - [      12041,   0.0, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/usr/libexec/installd ]
+
+--- !logd statistics record
+type  : Memory Rollover
+time  : 2019-09-20 15:52:11-0700
+total : 14066200
+procs :
+    - [    4851048,  34.5, /Users/edwardsmith/Library/Developer/CoreSimulator/Devices/18550B87-AB9C-4912-956E-523FD41CAE25/data/Containers/Bundle/Application/3923F1E0-FAC5-4B75-9E2F-D84D0C0A3374/Affirm.app/Affirm ]
+    - [    1958380,  13.9, /Users/edwardsmith/Library/Developer/CoreSimulator/Devices/18550B87-AB9C-4912-956E-523FD41CAE25/data/Containers/Bundle/Application/E899CC45-4C5D-4AD3-91BA-99D0BF6360EE/Affirm.app/Affirm ]
+    - [    1929679,  13.7, /Users/edwardsmith/Library/Developer/CoreSimulator/Devices/18550B87-AB9C-4912-956E-523FD41CAE25/data/Containers/Bundle/Application/6E2718B0-0CFE-4FDA-9DDB-C0707C5CDB2F/Affirm.app/Affirm ]
+    - [    1223927,   8.7, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/usr/libexec/locationd ]
+    - [     624688,   4.4, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/System/Library/CoreServices/SpringBoard.app/SpringBoard ]
+    - [     477360,   3.4, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/usr/libexec/configd_sim ]
+    - [     399115,   2.8, /Users/edwardsmith/Library/Developer/CoreSimulator/Devices/18550B87-AB9C-4912-956E-523FD41CAE25/data/Containers/Bundle/Application/0A14D4FC-2E60-4297-95CF-6D4DB8D42721/Affirm.app/Affirm ]
+    - [     373904,   2.7, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/usr/libexec/UserEventAgent ]
+    - [     328351,   2.3, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/CoreSuggestions.framework/suggestd ]
+    - [     307916,   2.2, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/usr/libexec/nsurlsessiond ]
+    - [     289912,   2.1, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/usr/libexec/backboardd ]
+    - [     228537,   1.6, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/FamilyCircle.framework/familycircled ]
+    - [     213917,   1.5, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/usr/libexec/assertiond ]
+    - [     189956,   1.4, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/System/Library/TextInput/kbd ]
+    - [     125162,   0.9, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/AssistantServices.framework/assistantd ]
+    - [     110120,   0.8, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/Search.framework/searchd ]
+    - [     107188,   0.8, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/GeoServices.framework/geod ]
+    - [      64264,   0.5, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/AppStoreDaemon.framework/Support/appstored ]
+    - [      44804,   0.3, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/usr/libexec/pkd ]
+    - [      38518,   0.3, /Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 12.0.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/CloudKitDaemon.framework/Support/cloudd ]
+
+--- !logd uuid purge records
+time  : 2019-09-21 04:36:40-0700
+uuids :
+    - 6673529B-1085-3F85-9609-26DC78F1F3BA
+    - 3E54394D-6A4F-35E2-9192-13441CDA9BD1
+    - 57B16E5D-C088-3170-AEE1-D7F93395E75A
+    - 9E74B4CF-D6A7-37CE-953D-E2091C60F6C7
+    - 3C17A57B-091D-30AB-8DC1-8D36ABAFFD1E
+    - 58A0DD59-1B24-31D0-A32D-F59DF7A9A018
+    - 5882ABB9-02DC-3ED3-BB16-4E5EAB925D7B
+    - 05BC97CE-26F5-3F57-B572-4BD5AC93B595
+    - B5EF20A2-B8E6-3A57-8E89-BB79FF70164C
+    - B57DF05A-97D0-3030-99E0-D17118123506
+    - B2EB043F-C6C1-3737-BDC1-6BD23A192391
+    - AC2FF485-BCC8-3880-96F3-75285BF8D59B
+    - BBB000A9-D16D-370A-9B7C-A62B06DC5895
+    - D0893A8A-42BD-32D2-863E-F40AF0910CD6
+    - D0EC6B12-1500-38E4-BA2A-CB4446BC645A
+    - DA455E07-204E-36A4-994E-4D32040569FC
+    - A570205C-D2EE-3FC8-A122-F642D1BADEDA
+    - E2DA2158-5DE4-3874-B13A-D281A07157ED
+    - E2CB088E-4F28-3230-BDA4-4A10A0206D92
+    - F4AB062D-9F65-3F10-BC73-8843AF2F57CB
+    - F4C37FC3-9128-3D40-A137-E46C8CC0BAB6
+    - C7240935-7086-329E-8F0A-908E1C98431E
+    - EEB1932A-A6CD-32A2-A89F-66812DA995EB
+    - F2F50B38-2E40-3268-979D-BE4B9793A905
+    - CFFB08EA-C1B7-3A1E-917B-086CB420FA15
+    - FBDAF590-43BA-3D23-9493-3A0EFD85AE18
+    - EC2F6AF4-5D0A-3C0D-B996-3AA81A09F8A1
+    - 18F41C95-7D5D-3EA1-9944-CE06DA036500
+    - 115ED3C2-310A-3EF8-8E04-82CB4DF2D07D
+    - 42D64882-8F2B-3ADA-A67E-323B454A5DAB
+    - 45F8F894-D164-35A1-9670-83BAD80714A0
+    - 1A3F6718-83AF-34B5-9168-F5DDE3F0C7CB
+    - 28F9CDBE-D38F-37C9-8839-CDCCC392DE92
+    - 7B879E6E-7C8A-312D-B84E-3FAFF74F7D55
+    - 9F403180-A3CD-37C0-B482-301A43761614
+    - 9F7CCF55-8EDF-3827-88C7-1DF96D438A4E
+    - 072DAA28-B1F0-3CD3-9F64-6B4BFA91C787
+    - 3887CDC9-A16C-3023-9CBC-9F7EF21D588E
+    - 361B1DC0-D824-3620-92A4-998780C58B87
+    - 5C8EACAF-1493-3361-846F-D3064B0E2908
+    - 5D9A8D66-F850-34DE-8048-0FA8EB13BB2B
+    - 62F5244F-1668-3033-BDA5-C04D23CDD2F5
+    - 3FFCC13B-6E97-3BD6-97EE-791932E42750
+    - 30F6CED4-9C79-3F45-86EA-C084268723E2
+    - 39FB0BDF-C81A-3886-83AC-2F1B242F8FDD
+    - 0FA18F5C-56B3-3D0B-92A4-52B44F275802
+    - 0A7D991A-60AC-3CDB-918F-9D3B84111EF6
+    - 907E1A47-E905-308D-AED6-53518F3E6BCE
+    - D40D858E-B69E-3B32-8D32-5DF9A3DB4647
+    - A737F577-57DA-3508-A1C9-970CC22CCF97
+    - A7B46AC4-5806-37B4-B39A-2A1F445204D6
+    - B8A3E809-6C2E-39E2-92C6-850F630E0448
+    - B65D8AED-ACC3-325E-B845-4EBD8411B939
+    - B0B7A1AD-8D30-3F30-8410-BA26E322B012
+    - B99F941F-86C0-354F-9A55-7C4129A287AC
+    - C325E0CD-7433-34AF-95FE-3A3AE3A41F11
+    - C47083E4-D48E-32B7-8AED-5D514593CC39
+    - C49054E4-13DC-33CF-B932-BEA704CA8226
+    - E8E6A2A9-D1ED-3B8E-BB1D-9E3FE92D6ABA
+    - FF875615-496A-36BB-B51B-B923242BD1C1
+    - C2895EC6-43AD-3A4D-971B-C1A5388CCFB1
+    - E99FA84E-0070-3EAE-8446-AD613ADDF3BC
+    - F8DAD740-8C19-3297-8042-B01EBE8AAFF1
+    - CEE17B84-267C-3E23-8A3D-41368868ED4E
+    - 41E979C4-AE1C-3E0B-B044-B245C96F5E84
+    - 4103D25E-C4A1-326D-879C-3D731025189A
+    - 48C7131A-F5CA-3D0B-A020-E1ABC92FEC21
+    - 702F81AD-F2CE-3806-A42A-1A1C57C1D584
+    - 84DB11E1-A380-30A8-8690-89A645CBCC2F
+    - 8D863EE7-65A5-3FE5-81B0-806A795B0BB2
+    - 15AEBF0A-4450-3345-B42B-BCC8B34CB7DD
+    - 85F7E822-1B7D-3E27-85ED-B8CE8BD728F8
+    - 760766CD-65FB-37CC-BECD-62ED29E2A79F
+    - 82CB6DC3-3DE3-3D07-B1B6-DBF7AC9F4DE1
+    - 470B53FF-2D19-3F2D-8DEC-7366D9D0BC7B
+    - 47044274-7E1D-3E48-90A4-9AFA220F8A1D
+    - 78C0B7AA-81A2-3968-8683-2F1230E3A843
+    - 78AF3E06-224E-3068-A9B8-E51C751442D1
+    - 8BD5157F-DF08-36CA-84DB-5DDFCD678F8F
+    - 13C08213-61B5-3E12-AC16-2169704D301E
+    - 7FB27585-93E8-37FE-9BC2-F6D32CE1F410
+    - 8E5EB38F-1C2F-3D0D-A70E-851E2BD253DA
+files_in_use: 1014
+files_locked: 167
+files_recent: 55
+
+--- !logd uuid purge records
+time  : 2019-09-22 03:38:13-0700
+uuids :
+    - 9518D38F-6248-3D3F-8FE9-07C06FC950C6
+    - 9B1E1212-4F7A-3D18-8077-99F55EDCE7E5
+    - 048B5DC6-173A-351B-B6DE-51813900C460
+    - 35BD72E7-4F8E-3FAE-96C4-325B326B9E9C
+    - 569FE39A-A9C1-3307-B29D-B7B1FD83D1AD
+    - 6010DA28-B52B-3FCB-84C1-BE6328A44427
+    - 5F37206E-79F9-3EC2-8201-E4762699B431
+    - 5FAA5AC6-895B-3C0A-8642-54C6EB9B2F3A
+    - 02ADF8C7-E5F0-3B01-8CAC-096D5B966387
+    - D73B9517-E337-395D-962B-335D4ACAF7C8
+    - BEBB9D16-468E-3902-B2D1-BBE382E47168
+    - BE15E255-30B2-3311-B379-D8550E937C62
+    - B31EC961-2438-34B4-B535-BF62ED18AE27
+    - DFC278F7-ECDD-3175-BEAB-73552E86C2E7
+    - B4248747-61C1-3C6C-BD58-9056093CF383
+    - ABD2556B-9B71-34A8-A8C5-806B16076D0D
+    - EE825078-CB79-3F96-8E99-3AE7D2DAB7B4
+    - FC98583A-8760-3E16-86D4-E107B7EEA9B2
+    - F5B9C125-3D17-30D6-9C88-814DAA7D1495
+    - C1795E64-4FB5-3F3D-87CB-1E6FBB2ECB0F
+    - 2043AB10-67E5-3DE2-89D2-0784C9132E53
+    - 18B8E8C5-5833-3991-A6D5-29566C0955CA
+    - 7C4D8CD8-5B0F-3BB2-8160-6EBF9A6AA38A
+    - 89ED7DC0-77F7-3D95-9E33-01863C0A91E4
+    - 8913993C-7ADC-306E-8E3E-0310F268D153
+    - 1FA92A6C-E46B-3688-9D97-9D75C7D11EBC
+    - 87133020-3461-3B19-A28A-5C6A24B922C6
+    - 8F1D3E37-B374-3267-BD1C-CDB854767945
+    - 7EA34BBA-49BB-30A3-A1F6-AB5BBE9E27A2
+    - 8609B020-E991-3CDC-945D-8F585144145F
+    - 36466BFF-0225-3EF9-BD9D-7251899DFE30
+    - 364A4894-D7A1-3143-B830-A2706AB8A088
+    - 5DC9E048-5F30-3512-9254-44B5A84B3137
+    - 3AAD43D1-E1A2-3F60-B3FE-ED887679854C
+    - 3FDB4179-87F1-3618-8C06-7D4EA895BD33
+    - 6DD2AEE2-5287-360E-9695-B3C439EEF51E
+    - 01CC434F-1F7F-3B03-8096-2C66ED471947
+    - 9033CEC5-BB32-3258-855C-D5D53CE22712
+    - A0D14FF0-A3AC-34BF-8E1C-A5D779432822
+    - B18E9245-D333-326C-AF0B-29285A0B3A6D
+    - A973C8C5-BA61-34DF-8764-9DD60C056807
+    - D5403206-F95F-369B-942F-8E511D7B11CA
+    - A6A58388-2325-3482-9F2B-D7ACFEA81316
+    - A1B78A56-D4C3-395F-BC11-2EBFE4A5CC54
+    - F9F6BA5C-7C54-38D4-A38A-03BE881E2839
+    - F7D9BBE4-E1D1-3106-8A31-16FF87011FB1
+    - FA5A17C2-CC1B-34A3-A665-FB56079772CC
+    - 4642756D-F6CE-3EB1-B3C6-D86AD64D4375
+    - 849CCAB7-E6F8-384E-AE8F-3396E407B711
+    - 49FA01A9-01DD-3FBB-BA23-84802BEB5ACB
+    - 47660A1D-E387-3AB8-B317-262E7381AA8A
+    - 8E919F25-C077-3297-BC38-B4092F76E9C8
+files_in_use: 1014
+files_locked: 167
+files_recent: 3
+

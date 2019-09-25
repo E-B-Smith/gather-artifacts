@@ -1,0 +1,6 @@
+01:43:03.658 xcodebuild[15300:12889222] Got authorization request for pid 16123
+
+01:43:03.658 xcodebuild[15300:12889222] Requesting authorization for pid 16123
+
+01:43:03.664 xcodebuild[15300:12889221] Got reply to authorization request for pid 16123 (result:error): 1: (null)
+

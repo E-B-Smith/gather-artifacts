@@ -1,0 +1,5 @@
+2019-09-23 08:42:59 +0000: Received worker from worker provider: 0x7f8eaf923590 [0: AffirmSim_iPhone6s_iOS12_0 (18550B87-AB9C-4912-956E-523FD41CAE25)]
+2019-09-23 08:43:03 +0000: Worker 0x7f8eaf923590 [16123: AffirmSim_iPhone6s_iOS12_0 (18550B87-AB9C-4912-956E-523FD41CAE25)] finished bootstrapping
+2019-09-23 08:43:03 +0000: Parallelization disabled; test execution driven by the test process
+2019-09-23 08:49:23 +0000: Worker 0x7f8eaf923590 [16123: AffirmSim_iPhone6s_iOS12_0 (18550B87-AB9C-4912-956E-523FD41CAE25)] finished successfully
+2019-09-23 08:49:23 +0000: Finished executing tests (cancelled: No)

@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2B1FDE442338847E00236809 /* GACommandOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1FDE422338847E00236809 /* GACommandOptions.m */; };
+		2B1FDE442338847E00236809 /* GAOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1FDE422338847E00236809 /* GAOptions.m */; };
 		2B1FDE53233893D200236809 /* ZCommandLineTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1FDE4C233893D200236809 /* ZCommandLineTask.m */; };
 		2B1FDE54233893D200236809 /* ZReadLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1FDE4D233893D200236809 /* ZReadLine.m */; };
 		2B1FDE55233893D200236809 /* BNCLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1FDE50233893D200236809 /* BNCLog.m */; };
-		2B1FDE5923389B0D00236809 /* GACreateJUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1FDE5823389B0D00236809 /* GACreateJUnit.m */; };
+		2B1FDE5923389B0D00236809 /* GAJUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1FDE5823389B0D00236809 /* GAJUnit.m */; };
 		2BD265FA23388180002EB713 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD265F923388180002EB713 /* main.m */; };
+		B9DE410F23394B8100387E58 /* GACommon.m in Sources */ = {isa = PBXBuildFile; fileRef = B9DE410E23394B8100387E58 /* GACommon.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,8 +29,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		2B1FDE412338847E00236809 /* GACommandOptions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GACommandOptions.h; sourceTree = "<group>"; };
-		2B1FDE422338847E00236809 /* GACommandOptions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GACommandOptions.m; sourceTree = "<group>"; };
+		2B1FDE412338847E00236809 /* GAOptions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAOptions.h; sourceTree = "<group>"; };
+		2B1FDE422338847E00236809 /* GAOptions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GAOptions.m; sourceTree = "<group>"; };
 		2B1FDE462338874800236809 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B1FDE4B233893D200236809 /* ZReadLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZReadLine.h; sourceTree = "<group>"; };
 		2B1FDE4C233893D200236809 /* ZCommandLineTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCommandLineTask.m; sourceTree = "<group>"; };
@@ -38,11 +39,13 @@
 		2B1FDE50233893D200236809 /* BNCLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNCLog.m; sourceTree = "<group>"; };
 		2B1FDE51233893D200236809 /* BNCLog.Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNCLog.Test.m; sourceTree = "<group>"; };
 		2B1FDE52233893D200236809 /* BNCLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNCLog.h; sourceTree = "<group>"; };
-		2B1FDE5723389B0D00236809 /* GACreateJUnit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GACreateJUnit.h; sourceTree = "<group>"; };
-		2B1FDE5823389B0D00236809 /* GACreateJUnit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GACreateJUnit.m; sourceTree = "<group>"; };
+		2B1FDE5723389B0D00236809 /* GAJUnit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAJUnit.h; sourceTree = "<group>"; };
+		2B1FDE5823389B0D00236809 /* GAJUnit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GAJUnit.m; sourceTree = "<group>"; };
 		2B1FDE5A2338A08B00236809 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		2BD265F623388180002EB713 /* gather-artifacts */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "gather-artifacts"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BD265F923388180002EB713 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B9DE410D23394B8100387E58 /* GACommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GACommon.h; sourceTree = "<group>"; };
+		B9DE410E23394B8100387E58 /* GACommon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GACommon.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,10 +126,12 @@
 		2BD265F823388180002EB713 /* gather-artifacts */ = {
 			isa = PBXGroup;
 			children = (
-				2B1FDE412338847E00236809 /* GACommandOptions.h */,
-				2B1FDE422338847E00236809 /* GACommandOptions.m */,
-				2B1FDE5723389B0D00236809 /* GACreateJUnit.h */,
-				2B1FDE5823389B0D00236809 /* GACreateJUnit.m */,
+				2B1FDE412338847E00236809 /* GAOptions.h */,
+				2B1FDE422338847E00236809 /* GAOptions.m */,
+				B9DE410D23394B8100387E58 /* GACommon.h */,
+				B9DE410E23394B8100387E58 /* GACommon.m */,
+				2B1FDE5723389B0D00236809 /* GAJUnit.h */,
+				2B1FDE5823389B0D00236809 /* GAJUnit.m */,
 				2B1FDE462338874800236809 /* Info.plist */,
 				2BD265F923388180002EB713 /* main.m */,
 			);
@@ -189,10 +194,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9DE410F23394B8100387E58 /* GACommon.m in Sources */,
 				2B1FDE54233893D200236809 /* ZReadLine.m in Sources */,
 				2B1FDE55233893D200236809 /* BNCLog.m in Sources */,
-				2B1FDE5923389B0D00236809 /* GACreateJUnit.m in Sources */,
-				2B1FDE442338847E00236809 /* GACommandOptions.m in Sources */,
+				2B1FDE5923389B0D00236809 /* GAJUnit.m in Sources */,
+				2B1FDE442338847E00236809 /* GAOptions.m in Sources */,
 				2BD265FA23388180002EB713 /* main.m in Sources */,
 				2B1FDE53233893D200236809 /* ZCommandLineTask.m in Sources */,
 			);
