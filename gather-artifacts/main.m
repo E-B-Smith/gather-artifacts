@@ -13,7 +13,27 @@
 #import "GAOptions.h"
 #import "GAJUnit.h"
 #import "GACoverage.h"
+#import "GACommon.h"
 #import "BNCLog.h"
+#include <glob.h>
+
+NSArray<NSString*>*_Nonnull GAGlobPathname(NSString*pattern) {
+    glob_t glob_data;
+    NSMutableArray<NSString*>*globs = NSMutableArray.new;
+    {
+        glob_data.gl_matchc = 1000;
+        int err = glob([pattern cStringUsingEncoding:NSNEXTSTEPStringEncoding],
+            GLOB_TILDE | GLOB_BRACE | GLOB_LIMIT, NULL, &glob_data);
+        if (err != 0) goto exit;
+        for (int i = 0; i < glob_data.gl_matchc; ++i) {
+            [globs addObject:
+                [NSString stringWithCString:glob_data.gl_pathv[i] encoding:NSNEXTSTEPStringEncoding]];
+        }
+    }
+exit:
+    globfree(&glob_data);
+    return globs;
+}
 
 static BNCLogLevel global_logLevel = BNCLogLevelWarning;
 
@@ -65,9 +85,37 @@ int main(int argc, char*const argv[]) {
             MIN(MAX(BNCLogLevelWarning - options.verbosity, BNCLogLevelAll), BNCLogLevelNone);
         BNCLogSetDisplayLevel(global_logLevel);
 
-        NSLog(@"%@", [[NSFileManager defaultManager] currentDirectoryPath]);
-        GAJUnitWithInput(options.inputDirectory, @"");
-        GACoverageWithInput(options.inputDirectory, @"");
+        NSFileHandle*stdError = [NSFileHandle fileHandleWithStandardError];
+
+        // Find the test plist file:
+        NSString*glob = [NSString stringWithFormat:@"%@/**/*TestSummaries.plist", options.inputDirectory];
+        NSArray<NSString*>*plists = GAGlobPathname(glob);
+        if (plists.count == 0) {
+            GAWritef(stdError, @"Can't find test summary with glob '%@'.", glob);
+            goto exit;
+        }
+        glob = [NSString stringWithFormat:@"%@/**/*.xccovarchive", options.inputDirectory];
+        NSArray<NSString*>*xccovarchives = GAGlobPathname(glob);
+        if (xccovarchives.count == 0) {
+            GAWritef(stdError, @"Can't find xccovarchive with glob '%@'.", glob);
+            goto exit;
+        }
+
+        NSString*junitOut = [NSString stringWithFormat:@"%@/report.junit", options.outputDirectory];
+        NSError*error = GAJUnitWithInput(plists[plists.count-1], junitOut);
+        if (error) {
+            GAWritef(stdError, @"%@", error.localizedDescription);
+            goto exit;
+        }
+
+        NSString*coverageOut = [NSString stringWithFormat:@"%@/coverage.coverage", options.outputDirectory];
+        error = GACoverageWithInput(xccovarchives[xccovarchives.count-1], coverageOut);
+        if (error) {
+            GAWritef(stdError, @"%@", error.localizedDescription);
+            goto exit;
+        }
+
+    returnCode = EXIT_SUCCESS;
     }
 exit:
     return returnCode;

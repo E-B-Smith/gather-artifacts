@@ -10,13 +10,26 @@
 
 #import "GACommon.h"
 
-void GAWritef(NSFileHandle*file, NSString*format, ...) {
+NSError* NSErrorWithCodeFileLine(NSInteger code, NSString*filename, NSInteger linenumber) {
+    filename = [filename lastPathComponent];
+    return [NSError errorWithDomain:NSCocoaErrorDomain code:code userInfo:@{
+        @"Filename": (filename) ? filename : @"None",
+        @"Linenumber": @(linenumber)
+    }];
+}
+
+NSError*GAWritef(NSFileHandle*file, NSString*format, ...) {
     va_list args;
     va_start(args, format);
     NSMutableString* message = [[NSMutableString alloc] initWithFormat:format arguments:args];
     [message appendString:@"\n"];
     va_end(args);
-    [file writeData:[message dataUsingEncoding:NSUTF8StringEncoding]];
+    @try {
+        [file writeData:[message dataUsingEncoding:NSUTF8StringEncoding]];
+    } @catch (NSException *exception) {
+        return NSErrorWithCode(NSFileWriteUnknownError);
+    }
+    return nil;
 }
 
 NSString* GAProjectFilename(NSString*filename) {

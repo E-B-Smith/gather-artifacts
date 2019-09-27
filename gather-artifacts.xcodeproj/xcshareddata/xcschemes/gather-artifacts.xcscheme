@@ -63,7 +63,11 @@
       </BuildableProductRunnable>
       <CommandLineArguments>
          <CommandLineArgument
-            argument = "-i ../Test/TestResults/TestSummaries.plist "
+            argument = "-i ../Test/TestResults"
+            isEnabled = "YES">
+         </CommandLineArgument>
+         <CommandLineArgument
+            argument = "-o ../Test/"
             isEnabled = "YES">
          </CommandLineArgument>
       </CommandLineArguments>

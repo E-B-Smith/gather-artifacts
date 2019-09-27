@@ -181,8 +181,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9DE410F23394B8100387E58 /* GACommon.m in Sources */,
 				2B1FDE55233893D200236809 /* BNCLog.m in Sources */,
+				B9DE410F23394B8100387E58 /* GACommon.m in Sources */,
 				B91BFF79233B5425002E9501 /* GACoverage.m in Sources */,
 				2B1FDE5923389B0D00236809 /* GAJUnit.m in Sources */,
 				2B1FDE442338847E00236809 /* GAOptions.m in Sources */,

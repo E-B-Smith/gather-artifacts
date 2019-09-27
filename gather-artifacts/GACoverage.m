@@ -21,9 +21,8 @@ NSError*_Nullable GAErrorFromTaskTermination(NSTask*task) {
     return nil;
 }
 
-NSError*_Nullable GACoverageWithInput(NSString*xccovarchiveX, NSString*output) {
-    NSFileHandle*fout = [NSFileHandle fileHandleWithStandardOutput];
-    NSString*xccovarchive = @"../Test/TestResults/1_Test/action.xccovarchive";
+NSError*_Nullable GACoverageWithInput(NSString*xccovarchive, NSString*output) {
+    __auto_type fout = [NSFileHandle fileHandleForWritingAtPath:output];
 
     NSPipe*fileListPipe = [[NSPipe alloc] init];
     NSTask*fileListTask = [[NSTask alloc] init];
@@ -52,8 +51,10 @@ NSError*_Nullable GACoverageWithInput(NSString*xccovarchiveX, NSString*output) {
         __auto_type error = GAErrorFromTaskTermination(coverageTask);
         if (error) return error;
         __auto_type coverage = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
-        GAWritef(fout, @"File: %@", trimFile);
-        GAWritef(fout, @"%@", coverage);
+        error = GAWritef(fout, @"File: %@", trimFile);
+        if (error) return error;
+        error = GAWritef(fout, @"%@", coverage);
+        if (error) return error;
     }
     return nil;
 }

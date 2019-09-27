@@ -126,6 +126,7 @@ NSMutableArray<GATestCase*>*allTests;
 
 - (GATestCase*) testSuite { return self.parent; }
 - (GATestCase*) testSuites { return self.parent.parent; }
+
 @end
 
 #pragma mark -
@@ -155,8 +156,11 @@ NSError*_Nullable GAJUnitWithInput(
     for (NSDictionary*suiteDictionary in plist[@"TestableSummaries"]) {
         [GATestCase testWithParent:nil dictionary:suiteDictionary];
     }
-    __auto_type fout = [NSFileHandle fileHandleWithStandardOutput];
-    GAWritef(fout, @"<?xml version='1.0' encoding='UTF-8'?>");
+
+    __auto_type fout = [NSFileHandle fileHandleForWritingAtPath:output];
+    error = GAWritef(fout, @"<?xml version='1.0' encoding='UTF-8'?>");
+    if (error) return error;
+    
     GATestCase*lastTestSuites = nil;
     GATestCase*lastTestSuite = nil;
     for (GATestCase*test in allTests) {

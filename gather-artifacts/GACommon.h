@@ -12,18 +12,12 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-static inline NSError* NSErrorWithCodeFileLine(NSInteger code, NSString*filename, NSInteger linenumber) {
-    filename = [filename lastPathComponent];
-    return [NSError errorWithDomain:NSCocoaErrorDomain code:code userInfo:@{
-        @"Filename": (filename) ? filename : @"None",
-        @"Linenumber": @(linenumber)
-    }];
-}
+FOUNDATION_EXPORT NSError*_Nullable NSErrorWithCodeFileLine(NSInteger code, NSString*filename, NSInteger linenumber);
 
 #define NSErrorWithCode(code) \
     NSErrorWithCodeFileLine(code, @__FILE__, __LINE__)
 
-FOUNDATION_EXPORT void GAWritef(NSFileHandle*file, NSString*format, ...) NS_FORMAT_FUNCTION(2,3);
+FOUNDATION_EXPORT NSError*_Nullable GAWritef(NSFileHandle*file, NSString*format, ...) NS_FORMAT_FUNCTION(2,3);
 
 FOUNDATION_EXPORT NSString* GAProjectFilename(NSString*filename);
 
