@@ -10,6 +10,7 @@
 
 #import "GACoverage.h"
 #import "GACommon.h"
+#import "BNCLog.h"
 
 NSError*_Nullable GAErrorFromTaskTermination(NSTask*task) {
     if (task.terminationStatus != 0) {
@@ -22,6 +23,9 @@ NSError*_Nullable GAErrorFromTaskTermination(NSTask*task) {
 }
 
 NSError*_Nullable GACoverageWithInput(NSString*xccovarchive, NSString*output) {
+    BNCLogDebug(@"Create coverage from '%@'.", xccovarchive);
+    BOOL success = [[NSFileManager defaultManager] createFileAtPath:output contents:nil attributes:nil];
+    if (!success) return NSErrorWithCode(NSURLErrorCannotWriteToFile);
     __auto_type fout = [NSFileHandle fileHandleForWritingAtPath:output];
 
     NSPipe*fileListPipe = [[NSPipe alloc] init];
@@ -31,7 +35,11 @@ NSError*_Nullable GACoverageWithInput(NSString*xccovarchive, NSString*output) {
     fileListTask.standardInput = [NSFileHandle fileHandleWithNullDevice];
     fileListTask.standardOutput = fileListPipe;
     [fileListTask launch];
-    __auto_type data = [[fileListPipe fileHandleForReading] readDataToEndOfFile];
+    NSMutableData*data = [NSMutableData data];
+    do  {
+        __auto_type chunk = [[fileListPipe fileHandleForReading] readDataToEndOfFile];
+        [data appendData:chunk];
+    } while (fileListTask.isRunning);
     __auto_type error = GAErrorFromTaskTermination(fileListTask);
     if (error) return error;
     __auto_type string = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
@@ -40,6 +48,7 @@ NSError*_Nullable GACoverageWithInput(NSString*xccovarchive, NSString*output) {
         NSString*trimFile = [file stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
         if (trimFile.length == 0) continue;
 
+        BNCLogDebug(@"Creating coverage for '%@'.", file);
         NSPipe*coveragePipe = [[NSPipe alloc] init];
         NSTask*coverageTask = [[NSTask alloc] init];
         coverageTask.launchPath = @"/usr/bin/xcrun";
@@ -47,7 +56,11 @@ NSError*_Nullable GACoverageWithInput(NSString*xccovarchive, NSString*output) {
         coverageTask.standardInput = [NSFileHandle fileHandleWithNullDevice];
         coverageTask.standardOutput = coveragePipe;
         [coverageTask launch];
-        __auto_type data = [[coveragePipe fileHandleForReading] readDataToEndOfFile];
+        NSMutableData*data = [NSMutableData data];
+        do  {
+            __auto_type chunk = [[coveragePipe fileHandleForReading] readDataToEndOfFile];
+            [data appendData:chunk];
+        } while (coverageTask.isRunning);
         __auto_type error = GAErrorFromTaskTermination(coverageTask);
         if (error) return error;
         __auto_type coverage = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
@@ -56,5 +69,6 @@ NSError*_Nullable GACoverageWithInput(NSString*xccovarchive, NSString*output) {
         error = GAWritef(fout, @"%@", coverage);
         if (error) return error;
     }
+    [fout closeFile];
     return nil;
 }

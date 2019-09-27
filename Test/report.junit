@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites name='Affirm Sandbox Integration Tests.xctest' tests='16' failures='2'>
+  <testsuite name='AAAInitializeKIF' tests='1' failures='0'>
+    <testcase classname='AAAInitializeKIF' name='testInitializeKIF()' time='0.001'/>
+  </testsuite>
+  <testsuite name='SandboxIntegrationTests' tests='13' failures='2'>
+    <testcase classname='SandboxIntegrationTests' name='Guarantees_Smoke_Test__works_in_the_happy_case()' time='41.057'/>
+    <testcase classname='SandboxIntegrationTests' name='Edit_Email_Address__can_edit_email_address()' time='12.250'/>
+    <testcase classname='SandboxIntegrationTests' name='Anywhere_Terms_Requires_Down_Payment__supports_this()' time='36.509'/>
+    <testcase classname='SandboxIntegrationTests' name='Loan_Details__displays_refunded_loan_details()' time='15.482'/>
+    <testcase classname='SandboxIntegrationTests' name='SSN___Address_form__supports_this()' time='22.480'/>
+    <testcase classname='SandboxIntegrationTests' name='confirm_address__works_for_a_single_address_during_onboarding()' time='17.561'/>
+    <testcase classname='SandboxIntegrationTests' name='confirm_address__works_for_entering_an_address_during_onboarding()' time='19.076'/>
+    <testcase classname='SandboxIntegrationTests' name='confirm_address__works_for_a_single_address_during_guarantee_prequal()' time='36.473'/>
+    <testcase classname='SandboxIntegrationTests' name='confirm_address__works_for_entering_an_address_during_guarantee_prequal()' time='38.859'/>
+    <testcase classname='SandboxIntegrationTests' name='KBA_Questions__works_during_guarantee_prequal()' time='67.065'>
+      <failure message='affirm/OfflineFunctionalTests/AffirmKIFHelpers.swift:104'>
+The step timed out after 60.00 seconds: No responder for key inputs.
+      </failure>
+      <failure message='<unknown>:0'>
+failed: caught "KIFFailureException", "The step timed out after 60.00 seconds: No responder for key inputs."
+(
+	0   CoreFoundation                      0x000000010ca0329b __exceptionPreprocess + 331
+	1   libobjc.A.dylib                     0x000000010b57c735 objc_exception_throw + 48
+	2   CoreFoundation                      0x000000010ca02e09 -[NSException raise] + 9
+	3   KIF                                 0x0000000135b6d014 -[XCTestCase(KIFAdditions) failWithException:stopTest:] + 371
+	4   KIF                                 0x0000000135b4fb45 -[KIFTestActor failWithError:stopTest:] + 230
+	5   KIF                                 0x0000000135b4f6b7 -[KIFTestActor runBlock:complete:timeout:] + 116
+	6   KIF                                 0x0000000135b4f717 -[KIFTestActor runBlock:complete:] + 85
+	7   KIF                                 0x0000000135b56094 -[KIFUITestActor enterTextIntoCurrentFirstResponder:] + 49
+	8   Affirm Sandbox Integration Tests    0x0000000135844d15 $sSo9QuickSpecC32Affirm_Sandbox_Integration_TestsE8enterPINyySSF + 229
+	9   Affirm Sandbox Integration Tests    0x0000000135844d7b $sSo9QuickSpecC32Affirm_Sandbox_Integration_TestsE8enterPINyySSFTo + 75
+	10  Affirm Sandbox Integration Tests    0x000000013586c7b6 $s32Affirm_Sandbox_Integration_Tests0bcD0C22pinAndRemoveOnboardingyyF + 118
+	11  Affirm Sandbox Integration Tests    0x000000013586c8b4 $s32Affirm_Sandbox_Integration_Tests0bcD0C22pinAndRemoveOnboardingyyFTo + 36
+	12  Affirm Sandbox Integration Tests    0x00000001358685ba $s32Affirm_Sandbox_Integration_Tests0bcD0C4specyyFyyXEfU9_yycfU0_ + 234
+	13  Affirm Sandbox Integration Tests    0x000000013586ad9d $s32Affirm_Sandbox_Integration_Tests0bcD0C4specyyFyyXEfU9_yycfU0_TA + 13
+	14  Quick                               0x0000000135cfb3de $s5Quick7ExampleC3runyyF + 1054
+	15  Quick                               0x0000000135cfbde7 $s5Quick7ExampleC3runyyFTo + 23
+	16  Quick                               0x0000000135ceac2a __60+[QuickSpec addInstanceMethodForExample:classSelectorNames:]_block_invoke + 107
+	17  CoreFoundation                      0x000000010ca0a11c __invoking___ + 140
+	18  CoreFoundation                      0x000000010ca075b5 -[NSInvocation invoke] + 325
+	19  XCTest                              0x0000000134573b74 __24-[XCTestCase invokeTest]_block_invoke.194 + 78
+	20  XCTest                              0x00000001345cb8a4 -[XCTestCase(Failures) performFailableBlock:testCaseRun:shouldInterruptTest:] + 57
+	21  XCTest                              0x00000001345cb7c2 -[XCTestCase(Failures) _performTurningExceptionsIntoFailuresInterruptAfterHandling:block:] + 96
+	22  XCTest                              0x0000000134573804 __24-[XCTestCase invokeTest]_block_invoke + 848
+	23  XCTest                              0x00000001345d1d01 -[XCUITestContext performInScope:] + 128
+	24  XCTest                              0x00000001345733f1 -[XCTestCase testContextPerformInScope:] + 116
+	25  XCTest                              0x00000001345734a7 -[XCTestCase invokeTest] + 137
+	26  XCTest                              0x0000000134574f73 __26-[XCTestCase performTest:]_block_invoke_2 + 43
+	27  XCTest                              0x00000001345cb8a4 -[XCTestCase(Failures) performFailableBlock:testCaseRun:shouldInterruptTest:] + 57
+	28  XCTest                              0x00000001345cb7c2 -[XCTestCase(Failures) _performTurningExceptionsIntoFailuresInterruptAfterHandling:block:] + 96
+	29  XCTest                              0x0000000134574e8a __26-[XCTestCase performTest:]_block_invoke.316 + 88
+	30  XCTest                              0x00000001345dc3b7 +[XCTContext runInContextForTestCase:block:] + 225
+	31  XCTest                              0x00000001345745f8 -[XCTestCase performTest:] + 676
+	32  XCTest                              0x00000001345b7d6c -[XCTest runTest] + 57
+	33  XCTest                              0x000000013456f0d7 __27-[XCTestSuite performTest:]_block_invoke + 365
+	34  XCTest                              0x000000013456e8b3 -[XCTestSuite _performProtectedSectionForTest:testSection:] + 54
+	35  XCTest                              0x000000013456eb6f -[XCTestSuite performTest:] + 290
+	36  XCTest                              0x00000001345b7d6c -[XCTest runTest] + 57
+	37  XCTest                              0x000000013456f0d7 __27-[XCTestSuite performTest:]_block_invoke + 365
+	38  XCTest                              0x000000013456e8b3 -[XCTestSuite _performProtectedSectionForTest:testSection:] + 54
+	39  XCTest                              0x000000013456eb6f -[XCTestSuite performTest:] + 290
+	40  XCTest                              0x00000001345b7d6c -[XCTest runTest] + 57
+	41  XCTest                              0x000000013456f0d7 __27-[XCTestSuite performTest:]_block_invoke + 365
+	42  XCTest                              0x000000013456e8b3 -[XCTestSuite _performProtectedSectionForTest:testSection:] + 54
+	43  XCTest                              0x000000013456eb6f -[XCTestSuite performTest:] + 290
+	44  XCTest                              0x00000001345b7d6c -[XCTest runTest] + 57
+	45  XCTest                              0x00000001345e6986 __44-[XCTTestRunSession runTestsAndReturnError:]_block_invoke + 171
+	46  XCTest                              0x00000001345e6a57 __44-[XCTTestRunSession runTestsAndReturnError:]_block_invoke.80 + 68
+	47  XCTest                              0x0000000134586474 -[XCTestObservationCenter _observeTestExecutionForBlock:] + 588
+	48  XCTest                              0x00000001345e673d -[XCTTestRunSession runTestsAndReturnError:] + 623
+	49  XCTest                              0x000000013455341c -[XCTestDriver runTestsAndReturnError:] + 446
+	50  XCTest                              0x00000001345d856f _XCTestMain + 2333
+	51  libXCTestBundleInject.dylib         0x000000010a178bf1 __copy_helper_block_e8_32s + 0
+	52  CoreFoundation                      0x000000010c966a3c __CFRUNLOOP_IS_CALLING_OUT_TO_A_BLOCK__ + 12
+	53  CoreFoundation                      0x000000010c9661f0 __CFRunLoopDoBlocks + 336
+	54  CoreFoundation                      0x000000010c960a64 __CFRunLoopRun + 1284
+	55  CoreFoundation                      0x000000010c960221 CFRunLoopRunSpecific + 625
+	56  GraphicsServices                    0x0000000114c961dd GSEventRunModal + 62
+	57  UIKitCore                           0x000000011c3ac115 UIApplicationMain + 140
+	58  Affirm                              0x00000001077d525b main + 75
+	59  libdyld.dylib                       0x0000000111cdb551 start + 1
+	60  ???                                 0x0000000000000005 0x0 + 5
+)
+      </failure>
+    </testcase>
+    <testcase classname='SandboxIntegrationTests' name='Anywhere_Terms_Requires_Checking__supports_this()' time='43.440'/>
+    <testcase classname='SandboxIntegrationTests' name='Auth_scopes__can_reject_your_request_to_upgrade_to_loan_scopes()' time='14.955'/>
+    <testcase classname='SandboxIntegrationTests' name='NTA__can_see_calculator_as_a_new_to_affirm_user()' time='14.098'/>
+  </testsuite>
+</testsuites>

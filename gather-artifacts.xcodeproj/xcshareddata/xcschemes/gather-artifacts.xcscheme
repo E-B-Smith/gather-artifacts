@@ -67,6 +67,10 @@
             isEnabled = "YES">
          </CommandLineArgument>
          <CommandLineArgument
+            argument = "-vvvv"
+            isEnabled = "YES">
+         </CommandLineArgument>
+         <CommandLineArgument
             argument = "-o ../Test/"
             isEnabled = "YES">
          </CommandLineArgument>

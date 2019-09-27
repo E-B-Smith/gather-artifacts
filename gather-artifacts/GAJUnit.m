@@ -135,6 +135,7 @@ NSError*_Nullable GAJUnitWithInput(
     NSString*_Nonnull input,
     NSString*_Nonnull output
 ) {
+    BNCLogDebug(@"Creating junit from '%@'.", input);
     NSError*error = nil;
     __auto_type data = [NSData dataWithContentsOfFile:input options:0 error:&error];
     if (error) return error;
@@ -156,6 +157,9 @@ NSError*_Nullable GAJUnitWithInput(
     for (NSDictionary*suiteDictionary in plist[@"TestableSummaries"]) {
         [GATestCase testWithParent:nil dictionary:suiteDictionary];
     }
+
+    BOOL success = [[NSFileManager defaultManager] createFileAtPath:output contents:nil attributes:nil];
+    if (!success) return NSErrorWithCode(NSURLErrorCannotWriteToFile);
 
     __auto_type fout = [NSFileHandle fileHandleForWritingAtPath:output];
     error = GAWritef(fout, @"<?xml version='1.0' encoding='UTF-8'?>");
@@ -216,5 +220,6 @@ NSError*_Nullable GAJUnitWithInput(
         GAWritef(fout, @"  </testsuite>");
     if (lastTestSuites)
         GAWritef(fout, @"</testsuites>");
+    [fout closeFile];
     return nil;
 }
